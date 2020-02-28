@@ -22,5 +22,6 @@ RUN apt-get install -y \
 	libtiff-dev \
 	libeigen3-dev \
 	liblapack-dev \
+	libblas-dev\
 	libatlas-base-dev \
 	libgomp1 
