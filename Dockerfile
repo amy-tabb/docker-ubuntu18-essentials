@@ -14,7 +14,9 @@ RUN apt-get install -y \
 	pkg-config \
 	libavcodec-dev \
 	libavformat-dev \
-	libswscale-dev\
+	libswscale-dev
+	
+RUN apt-get install -y \	
 	libtbb2 \
 	libtbb-dev \
 	libjpeg-dev \
